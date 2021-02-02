@@ -1,0 +1,16 @@
+.woocommerce-ordering {
+  .orderby {
+    height: 40px;
+    font-size: 14px;
+    line-height: 36px;
+    border: 1px solid rgba(0, 0, 0, 0.12) !important;
+    border-radius: 20px;
+    padding: 0 25px 0 20px;
+    background-position: right 15px center;
+    color: #222;
+    text-overflow: ellipsis;
+    min-width: 120px;
+    outline: none;
+    cursor: pointer;
+  }
+}

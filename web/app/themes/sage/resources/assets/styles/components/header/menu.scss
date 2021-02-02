@@ -1,0 +1,23 @@
+.main-menu {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+
+  &__link {
+    font-size: 15px;
+    letter-spacing: 0;
+    text-transform: none;
+    color: #000;
+    text-decoration: none;
+    display: block;
+
+    &:hover {
+      color: #ca2728;
+    }
+
+    @media screen and (min-width: 1024px) {
+      line-height: 85px;
+      padding: 0 15px;
+    }
+  }
+}

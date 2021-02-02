@@ -96,3 +96,4 @@ Container::getInstance()
  * On this file we only append another function files
  */
 require_once dirname(__DIR__ . '/resources') . '/functions/remove.php';
+require dirname(__DIR__ . '/resources') . '/functions/bem-menu.php';

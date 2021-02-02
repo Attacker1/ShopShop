@@ -4,6 +4,7 @@
 <body @php body_class() @endphp>
 @php do_action('get_header') @endphp
 @include('components.header.wrap')
+@include('components.search-modal.wrap')
 
 
 <div class="wrapper">

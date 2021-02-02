@@ -2,7 +2,8 @@
 import 'jquery';
 
 // Import components
-import './components/header/init'
+import './components/header/init';
+import './components/search-modal/init';
 
 // import local dependencies
 import Router from './util/Router';

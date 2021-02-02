@@ -1,4 +1,3 @@
-export default function () {
-  // There will be a JS-code for header
-  console.log('header Code')
-}
+$('.header__hamburger').on('click', function() {
+    $(this).addClass('header__hamburger-active');
+});
