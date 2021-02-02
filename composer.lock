@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3dd4189cdd5e83c4ee86a4438392c972",
+    "content-hash": "6bd5b79ddbc9217d3b34d4a1d2b695b2",
     "packages": [
         {
             "name": "composer/installers",
@@ -760,6 +760,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/cyrlitera/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "4.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/4.9.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.4.9.2.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
