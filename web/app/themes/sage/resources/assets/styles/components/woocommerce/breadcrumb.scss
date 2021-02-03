@@ -1,0 +1,13 @@
+.woocommerce-breadcrumb {
+  text-decoration: none;
+  color: $colorText;
+  font-size: 13px;
+  line-height: 1.8;
+
+  a {
+    text-decoration: none;
+    color: $colorText;
+    margin: 0 8px;
+    font-weight: 400;
+  }
+}

@@ -12,6 +12,14 @@
   margin-right: auto;
   position: relative;
 
+  &-big {
+    @media screen and (min-width: 1380px) {
+      max-width: 100%;
+      padding-right: 105px;
+      padding-left: 105px;
+    }
+  }
+
   @media screen and (max-width: 1230px) {
     padding-left: 15px;
     padding-right: 15px;

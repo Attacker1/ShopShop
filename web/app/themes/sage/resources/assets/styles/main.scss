@@ -1,10 +1,15 @@
 @import "common/variables";
 @import "common/global";
 @import "common/fonts";
+@import "common/buttons";
 
 /* Components */
 @import "components/header/init";
 @import "components/footer/init";
 @import "components/search-modal/init";
-@import "components/woocommerce-ordering/init";
+@import "components/woocommerce/init";
 @import "components/hello/init";
+@import "components/product/card";
+@import "components/section-title/init";
+@import "components/category-section/init";
+@import "components/product/single";

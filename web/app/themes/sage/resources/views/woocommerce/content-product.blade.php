@@ -24,4 +24,4 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-@include('components.product-card.wrap')
+@include('components.product.card')

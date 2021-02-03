@@ -97,3 +97,6 @@ Container::getInstance()
  */
 require_once dirname(__DIR__ . '/resources') . '/functions/remove.php';
 require dirname(__DIR__ . '/resources') . '/functions/bem-menu.php';
+require dirname(__DIR__ . '/resources') . '/functions/remove/remove-woo.php';
+require dirname(__DIR__ . '/resources') . '/functions/woocommerce/woo-breadcrumbs.php';
+require dirname(__DIR__ . '/resources') . '/functions/woocommerce/woo-turn-image-actions.php';
